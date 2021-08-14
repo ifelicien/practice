@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
+        dispense.changeMade();
 
     }
 }
@@ -30,9 +30,14 @@ class payment{
     }
 
 }
-    class dispense {
+
+class dispense {
     private double changeMade(){
 
+        purchase cost = new purchase();
+        payment paid = new payment();
+
+        System.out.println(paid - cost);
 
     }
 }
